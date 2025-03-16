@@ -9,6 +9,9 @@ gem "bcrypt", "~> 3.1.7"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "image_processing", ">= 1.2"
 # gem "aws-sdk-s3", require: false
+gem "sprockets-rails"
+gem "importmap-rails"
+gem "sassc-rails"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
